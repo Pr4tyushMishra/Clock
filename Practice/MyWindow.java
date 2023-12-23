@@ -44,6 +44,8 @@ public class MyWindow extends JFrame {
             clockLabel.setText(dateTime);
         }
     } );*/
+
+      //USING THREAD.
     Thread t = new Thread(){
     public void run(){
         try
