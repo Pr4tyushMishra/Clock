@@ -34,6 +34,7 @@ public class MyWindow extends JFrame {
    }
 
    public void startClock(){
+      //USE THIS PART OF CODE IF YOU DON'T WANT TO USE THREAD.
     /*Timer timer = new Timer(1000,new ActionListener() {
         @Override
        public void actionPerformed(ActionEvent e){
